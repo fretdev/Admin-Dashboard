@@ -120,3 +120,40 @@ h3{
 .profile-text p{
     font-size: 0.8rem;
 }
+.header{
+    padding: 1rem 2.5rem;
+}
+.top-header{
+    display: flex;
+    gap: 6rem;
+}
+.header-img{
+    width: 2rem;
+    height: 2rem;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+}
+.search-bar{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.notification{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+.top-header img:not(.header-img) {
+    width: 1.2rem;
+    cursor: pointer;
+}
+input{
+    border-radius: 1rem;
+    background: #E2E8F0;
+    border: none;
+    outline: none;
+    width: 36rem;
+    height: 1.5rem;
+    padding: 0.8rem;
+}
