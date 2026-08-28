@@ -2,12 +2,12 @@
     display: grid;
     grid-template-columns: 15rem 1fr;
     grid-template-rows: 10rem 1fr;
-    min-height: 100vh;
     background: pink;
     grid-template-areas: 
     "sidebar header"
     "sidebar main"
     ;
+    min-height: 100vh;
 }
 
 .sidebar{
@@ -21,4 +21,36 @@
 .main{
     background: #E2E8F0;
     grid-area: main;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    padding: 3rem 2rem;
+}
+h3{
+    margin-bottom: 0.5rem;
+    color: #050505;
+}
+.projects-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+}
+.project{
+    background: #fff;
+    height: 200px;
+}
+
+.announcements-trending{
+    display: grid;
+    gap: 2rem;
+    grid-template-rows: auto auto;
+}
+
+.announcements-box{
+    background: #fff;
+    height: 20rem;
+}
+.trending-box{
+    background: #fff;
+    height: 20rem;
 }
