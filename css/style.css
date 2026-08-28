@@ -38,8 +38,22 @@ h3{
 .project{
     background: #fff;
     height: 200px;
+    border-radius: 0.5rem;
+    border-left: 0.5rem solid orange;
+    padding: 1rem  1rem;
+    font-size: 0.8rem;
+    text-align: justify;
 }
-
+.project img{
+    width: 1.3rem;
+}
+.icons-container{
+    display: flex;
+    justify-content: right;
+    gap: 1.5rem;
+    align-items: center;
+    margin-top: 3rem;
+}
 .announcements-trending{
     display: grid;
     gap: 2rem;
@@ -49,8 +63,10 @@ h3{
 .announcements-box{
     background: #fff;
     height: 20rem;
+    border-radius: 0.5rem;
 }
 .trending-box{
     background: #fff;
     height: 20rem;
+    border-radius: 0.5rem;
 }
